@@ -2,9 +2,6 @@ import streamlit as st
 import pandas as pd
 import csv
 
-nltk.download('stopwords')
-stop_words = set(stopwords.words('english'))
-
 csv_file_path = 'spam.csv'
 df = pd.read_csv(csv_file_path)
 
