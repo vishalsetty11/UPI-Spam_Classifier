@@ -1,8 +1,5 @@
 import streamlit as st
 import pandas as pd
-import pickle
-from sklearn.feature_extraction.text import TfidfVectorizer
-from nltk.corpus import stopwords
 import csv
 
 nltk.download('stopwords')
